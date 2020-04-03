@@ -7,4 +7,8 @@ Thise date was be used to create classification models like:
 - Random forest,
 - Logistic regression.
 
-During testing, Random Forest was recognized as the best model with an accuracy of 98%.
+Data was unbalanced. To decieding this problem was used Resampling Techniques: 
+1. Oversample minority class; 
+2. Undersample majority class.
+
+First technique got the best result with accuracy score 99% for Random Forest model. Trained Random Forest model was used for prediction on new random data. Random job ads from Duunitori.fi and Monster.fi sites were taken as an example.
